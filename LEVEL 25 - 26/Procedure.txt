@@ -1,0 +1,16 @@
+
+step 0 :	Keep the terminal as small as possible
+
+Step 1 :	login to the server using RSA PRIVATE KEY file         "ssh -i bandit26.sshkey -p 2220 bandit26@bandit.labs.overthewire.org"
+
+Step 2 :	The screen shows something like --More-- (25% / 50%).. On that screen press "v" it opens vi editor.
+
+Step 3 :	On the vi editor type :set shell=/bin/bash   and hit ENTER
+
+Step 4 : 	On the next line type :shell and hit ENTER
+
+Step 5 : 	Now you got the shell access to bandit26
+
+Step 6 :	Find the password using cat command   			"cat /etc/bandit_pass/bandit26"
+
+finnaly you will get the password to login bandit26... Then find the password of bandit27
